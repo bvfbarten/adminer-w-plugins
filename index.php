@@ -11,6 +11,7 @@ function adminer_object() {
     $plugins = array(
         // specify enabled plugins here
         new AdminerDumpJson,
+        new AdminerJsonColumn,
     );
     
     /* It is possible to combine customization and plugins:
